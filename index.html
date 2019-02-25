@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <style>
+        html, body {margin:0; padding:0;}
+        #wrap section {position:relative;width:100%; height:100%;border: solid 2px; opacity:0.5;}
+        #wrap section .end{position:absolute;left:50%;bottom:80%;width:10px;height:10px;background:black;}
+        #wrap section.yonom-show {background:red;}
+        #wrap section.yonom-hide {}
+        #wrap section.yonom {opacity:1;}
+
+        #wrap section video {width:100%;}
+    </style>
+</head>
+<body>
+    <div id="wrap pxm">
+        <section class="sec01">
+
+            <img src="http://images.samsung.com/is/image/samsung/p5/sec/home/phase/megaevent_kv_intro_img_02.jpg?$ORIGIN_JPG$" style="width:100%">
+        </section>
+        <section class="sec02">
+            <img src="http://images.samsung.com/is/image/samsung/p5/sec/home/phase/megaevent_kv_intro_img_02.jpg?$ORIGIN_JPG$" style="width:100%">
+        </section>
+        <section class="sec03 pxm">
+            <img src="http://images.samsung.com/is/image/samsung/p5/sec/home/phase/megaevent_kv_intro_img_02.jpg?$ORIGIN_JPG$" style="width:100%">
+        </section>
+        <section class="sec04 pxm">
+            <div data-pxm="y:0~-600/x:0~600"  style="width:40px;height:40px;background:green;"></div>
+            <img src="http://images.samsung.com/is/image/samsung/p5/sec/home/phase/megaevent_kv_intro_img_02.jpg?$ORIGIN_JPG$" style="width:100%">
+        </section>
+        <section class="sec05">
+            <img src="http://images.samsung.com/is/image/samsung/p5/sec/home/phase/megaevent_kv_intro_img_02.jpg?$ORIGIN_JPG$" style="width:100%">
+        </section>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="./src/_pallax.js"></script>
+    <script>
+/*
+        $('.sec05').yonom({
+            yonom: function(){
+                var video = this.find('video')[0];
+                function play(){
+                    video.play();
+                    if(video.currentTime === 0) setTimeout(play,100);
+                }
+                play();
+            },
+            hide: function(){
+                this.find('video')[0].pause();
+                this.find('video')[0].currentTime = 0;
+            }
+        })
+
+        $('.sec03').yonom({
+            yonom: function(){
+
+            },
+            viewCheck:100000
+        })
+
+*/
+    </script>
+</body>
+</html>
