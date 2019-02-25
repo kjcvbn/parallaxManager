@@ -1,4 +1,4 @@
-#ParallaxManager
+# ParallaxManager
 
 시차 모션 라이브러리 입니다.
 
@@ -15,7 +15,7 @@
 
 
 
-###Option
+### Option
 
 | option | description |
 | :----- | :---------- |
